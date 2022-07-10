@@ -23,13 +23,7 @@ export default class App extends React.Component{
       })
     }
     render(){
-      
       return (<div>
-        <h1>Open Dev Tool And Focus On Network,checkout resources details</h1>
-        <p>react、react-dom js files hosted on <strong>lib-app</strong></p>
-        <p>
-          components hosted on <strong>component-app</strong>
-        </p>
         <h4>
           Buttons:
         </h4>
@@ -40,8 +34,8 @@ export default class App extends React.Component{
         </h4>
         <button onClick={this.handleClick}>click me to open Dialog</button>
         <Dialog switchVisible={this.HanldeSwitchVisible} visible={this.state.dialogVisible}/>
-        <h4>hover me please!</h4>
-        <ToolTip content="hover me please" message="Hello,world!"/>
+        <h4>ToolTip</h4>
+        <ToolTip content="ToolTip" message="hover content"/>
       </div>)
     }
   }

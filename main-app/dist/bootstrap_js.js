@@ -47,7 +47,7 @@ class App extends (lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().Componen
   }
 
   render() {
-    return /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Open Dev Tool And Focus On Network,checkout resources details"), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "react\u3001react-dom js files hosted on ", /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "lib-app")), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "components hosted on ", /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "component-app")), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Buttons:"), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement((component_app_Button__WEBPACK_IMPORTED_MODULE_1___default()), {
+    return /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Buttons:"), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement((component_app_Button__WEBPACK_IMPORTED_MODULE_1___default()), {
       type: "primary"
     }), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement((component_app_Button__WEBPACK_IMPORTED_MODULE_1___default()), {
       type: "warning"
@@ -56,9 +56,9 @@ class App extends (lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().Componen
     }, "click me to open Dialog"), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement((component_app_Dialog__WEBPACK_IMPORTED_MODULE_2___default()), {
       switchVisible: this.HanldeSwitchVisible,
       visible: this.state.dialogVisible
-    }), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "hover me please!"), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement((component_app_ToolTip__WEBPACK_IMPORTED_MODULE_3___default()), {
-      content: "hover me please",
-      message: "Hello,world!"
+    }), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "ToolTip"), /*#__PURE__*/lib_app_react__WEBPACK_IMPORTED_MODULE_0___default().createElement((component_app_ToolTip__WEBPACK_IMPORTED_MODULE_3___default()), {
+      content: "ToolTip",
+      message: "hover content"
     }));
   }
 
